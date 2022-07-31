@@ -1,0 +1,13 @@
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "c:\Users\khanc\Desktop\Python\Examples\test21_debugging_logging.py", line 9, in <module>
+    temp = a/b
+ZeroDivisionError: division by zero
+INFO:root:we are calling our add function
+INFO:root:add function executed, task completed
+INFO:root:we are calling out is_even function
+INFO:root:add function executed, task completed
+2022-07-14 00:55:00,629 - root - we are calling our add function
+2022-07-14 00:55:00,629 - root - add function executed, task completed
+2022-07-14 00:55:00,629 - root - we are calling out is_even function
+2022-07-14 00:55:00,629 - root - add function executed, task completed
